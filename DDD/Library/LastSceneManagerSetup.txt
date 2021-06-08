@@ -1,1 +1,9 @@
+<<<<<<< HEAD
+sceneSetups:
+- path: "Assets/Sunnyland/\u573A\u666F/1.unity"
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+=======
 sceneSetups: []
+>>>>>>> master
