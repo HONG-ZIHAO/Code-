@@ -13,7 +13,7 @@ public class playerFind : MonoBehaviour
     public Animator Anim;
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -43,11 +43,17 @@ public class playerFind : MonoBehaviour
             Anim.SetBool("isMove", animSwitch);
             Invoke("Switch", attackTime);
         }
+        //if (collision.collider.tag == "AttackPoint")
+        //{
+        //    Vector2 difference = collision.transform.position - transform.position;
+        //    transform.position = new Vector2(-(collision.transform.position.x + difference.x), collision.transform.position.y + difference.y);
+
+        //}
 
     }
     void Switch()
     {
         animSwitch = true;
-        
+
     }
 }
