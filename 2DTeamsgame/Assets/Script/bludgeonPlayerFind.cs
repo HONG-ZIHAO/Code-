@@ -30,8 +30,7 @@ public class bludgeonPlayerFind : MonoBehaviour
             //GameObject.Find("enemy2").GetComponent<AIPath>().enabled = true;
         }
         else
-        {
-            
+        {           
             Anim.SetBool("Runing", false);
             Anim.SetBool("Attack", true);
             GameObject.Find("enemy2").GetComponent<AIPath>().enabled = false;
